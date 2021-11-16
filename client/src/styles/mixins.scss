@@ -1,0 +1,19 @@
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin bar-settings {
+    height: $toolbar-height;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 4px 5px gray;
+}
+@mixin font {
+    font-family: 'Fruktur', cursive;
+    line-height: .5px;
+}
